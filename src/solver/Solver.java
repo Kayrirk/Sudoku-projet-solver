@@ -36,7 +36,7 @@ public class Solver
 							if (grille.isCorrect(i, j, k))
 							{
 								grille.set(i, j, k);
-								if (solve())// début du backtracking récursif
+								if (solve())// début de la partie récursive
 									return true;
 								else
 									grille.set(i, j, 0);
